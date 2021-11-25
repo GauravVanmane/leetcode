@@ -9,4 +9,4 @@ class Solution:
             x //= 10
         if reversed_int >= 2 ** 31 - 1 or reversed_int <= -2 ** 31:
             return False
-        return True if reversed_int ==y else False
+        return True if reversed_int == y else False
