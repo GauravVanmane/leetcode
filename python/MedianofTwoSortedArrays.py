@@ -13,7 +13,7 @@ def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
 
     remained = nums1[pa:] + nums2[pb:]
     result.extend(remained)
-    print(result)
+    
     n = len(result)
     median = 0.00000
     if n % 2 :
