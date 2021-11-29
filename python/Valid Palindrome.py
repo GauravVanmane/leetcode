@@ -5,6 +5,8 @@ def isPalindrome(self, s: str) -> bool:
             newstr += c.lower()
     return newstr == newstr[::-1]
     
+    
+    # This is another Approach
 #         def alpaNum(c):
 #             return (ord('A') <= ord(c) <= ord('Z') or 
 #                     ord('a') <= ord(c) <= ord('z') or 
